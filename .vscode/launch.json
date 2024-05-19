@@ -1,0 +1,160 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "hybried",
+      "request": "launch",
+      "mainClass": "hybried",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "multiple",
+      "request": "launch",
+      "mainClass": "multiple",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "hierarchical",
+      "request": "launch",
+      "mainClass": "hierarchical",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "multilevel",
+      "request": "launch",
+      "mainClass": "multilevel",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "single",
+      "request": "launch",
+      "mainClass": "single",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ]
+    },
+    {
+      "name": "Java Console App",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ],
+      "externalConsole": true
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "AbstaractDemo.Main",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "mane",
+      "request": "launch",
+      "mainClass": "Intro.mane",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "wrapperExample",
+      "request": "launch",
+      "mainClass": "Intro.wrapperExample",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Greeting",
+      "request": "launch",
+      "mainClass": "Packagess.a.Greeting",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Message",
+      "request": "launch",
+      "mainClass": "Packagess.a.Message",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "some",
+      "request": "launch",
+      "mainClass": "Packagess.b.some",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Main(1)",
+      "request": "launch",
+      "mainClass": "Properties.Inheritance.Main",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Main(2)",
+      "request": "launch",
+      "mainClass": "Properties.Polymorphism.Main",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Numbers",
+      "request": "launch",
+      "mainClass": "Properties.Polymorphism.Numbers",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "InnerClasses",
+      "request": "launch",
+      "mainClass": "staticExample.InnerClasses",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Main(3)",
+      "request": "launch",
+      "mainClass": "staticExample.Main",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "StaticBlock",
+      "request": "launch",
+      "mainClass": "staticExample.StaticBlock",
+      "projectName": "Oops_9881b4b9"
+    }
+  ]
+}

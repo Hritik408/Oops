@@ -2,8 +2,9 @@ package AbstaractDemo;
 
 public class Son extends Parent{
 
-    public Son() {
-      System.out.println("I'm don");
+    public Son(int age) {
+   //   System.out.println("I'm don" + age);
+   super(age);
     }
 
     // @Override
@@ -11,6 +12,11 @@ public class Son extends Parent{
     //     // System.out.println("I'm going to be a " + name);
     //     System.out.println("I'm going to be a ");
     // }
+
+    //   @Override
+    //   void normal() {
+    //     super.normal();
+    //   }
 
     @Override
     void career() {
