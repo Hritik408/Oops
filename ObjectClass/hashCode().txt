@@ -1,0 +1,10 @@
+For every object, JVM generates a unique number which is a hashcode. It returns distinct integers for distinct objects. A common misconception about this method is that the
+ hashCode() method returns the address of the object, which is not correct. It converts the internal address of the object to an integer by using an algorithm. The hashCode() 
+ method is native because in Java it is impossible to find the address of an object, so it uses native languages like C/C++ to find the address of the object.
+
+Use of hashCode() method
+It returns a hash value that is used to search objects in a collection. JVM(Java Virtual Machine) uses the hashcode method while saving objects into hashing-related data 
+structures like HashSet, HashMap, Hashtable, etc. The main advantage of saving objects based on hash code is that searching becomes easy. 
+
+Note: Override of hashCode() method needs to be done such that for every object we generate a unique number. For example, for a Student class, we can return the roll no. of
+ a student from the hashCode() method as it is unique.

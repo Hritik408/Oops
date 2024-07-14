@@ -1,0 +1,11 @@
+Advantages of Polymorphism in Java
+
+1.Increases code reusability by allowing objects of different classes to be treated as objects of a common class.
+2.Improves readability and maintainability of code by reducing the amount of code that needs to be written and maintained.
+3.Supports dynamic binding, enabling the correct method to be called at runtime, based on the actual class of the object.
+4.Enables objects to be treated as a single type, making it easier to write generic code that can handle objects of different types.
+
+Disadvantages of Polymorphism in Java
+
+1.Can make it more difficult to understand the behavior of an object, especially if the code is complex.
+2.This may lead to performance issues, as polymorphic behavior may require additional computations at runtime.

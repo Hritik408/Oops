@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hybrid",
+      "request": "launch",
+      "mainClass": "hybrid",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "TestClass",
+      "request": "launch",
+      "mainClass": "Interfaces.DiamondProblem.TestClass",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Interfaces.Main",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "GFG2",
+      "request": "launch",
+      "mainClass": "Properties.Encapsulation.GFG2",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "GFG",
+      "request": "launch",
+      "mainClass": "Properties.Encapsulation.GFG",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "TestEncapsulation",
+      "request": "launch",
+      "mainClass": "Properties.Encapsulation.TestEncapsulation",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "area",
+      "request": "launch",
+      "mainClass": "Properties.Encapsulation.area",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Properties.Encapsulation.Main",
+      "projectName": "Oops_9881b4b9"
+    },
+    {
+      "type": "java",
       "name": "hybried",
       "request": "launch",
       "mainClass": "hybried",
@@ -47,10 +103,7 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [
-        ".",
-        "${fileDirname}"
-      ]
+      "classpath": [".", "${fileDirname}"]
     },
     {
       "name": "Java Console App",
@@ -60,10 +113,7 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [
-        ".",
-        "${fileDirname}"
-      ],
+      "classpath": [".", "${fileDirname}"],
       "externalConsole": true
     },
     {

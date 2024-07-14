@@ -1,0 +1,22 @@
+The toString() provides a String representation of an object and is used to convert an object to a String. The default toString() method for class Object returns a string consisting of the name of the class of which the object is an instance, the at-sign character `@’, and the unsigned hexadecimal representation of the hash code of the object. In other words, it is defined as:
+
+
+
+// Default behavior of toString() is to print class name, then
+// @, then unsigned hexadecimal representation of the hash code
+// of the object
+
+public String toString()
+{
+    return getClass().getName() + "@" + Integer.toHexString(hashCode());
+}
+
+It is always recommended to override the toString() method to get our own String representation of Object. For more on override of toString() method refer – Overriding toString() in Java 
+
+Note: Whenever we try to print any Object reference, then internally toString() method is called.
+
+Student s = new Student();
+
+// Below two statements are equivalent
+System.out.println(s);
+System.out.println(s.toString());
